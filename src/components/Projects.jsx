@@ -58,7 +58,9 @@ const Projects = () => {
                     {content.stack_backend}
                   </h5>
                   <button className="font-bold text-gray self-end">
-                    READ MORE
+                    <a href={content.link_to}>
+                      TRY IT OUT
+                    </a>
                   </button>
                 </div>
               </SwiperSlide>

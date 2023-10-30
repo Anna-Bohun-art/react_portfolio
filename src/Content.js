@@ -33,7 +33,6 @@ import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
-import cv from "./assets/images/Hero/cv.png";
 
 export const content = {
   nav: [
@@ -145,7 +144,8 @@ export const content = {
         image: project1,
         description: "Pokefight offers a unique and engaging experience for Pokémon fans and gamers alike. Dive into the world of Pokémon, train your creatures, and become the ultimate Pokémon master. Will you rise to the top of the leaderboard and prove you have what it takes to be a true Pokémon champion? Try it out!",
         stack_frontend: "HTML, CSS, JavaScript and a modern front-end framework React.",
-        stack_backend: "Node.js with a framework Express.js for handling server-side logic and APIs with the  MongoDB database."
+        stack_backend: "Node.js with a framework Express.js for handling server-side logic and APIs with the  MongoDB database.",
+        link_to: "https://pokefight-126.netlify.app/"
       },
       {
         title: "CookBook",
@@ -153,12 +153,14 @@ export const content = {
         description: "CookBook is a user-friendly web application designed to cater to culinary enthusiasts, home cooks, and professional chefs alike. Its primary goal is to provide a comprehensive repository of recipes, neatly organized into various food categories, making it easier for users to find and explore new dishes. Among the prominent categories are Bread, Salad, Pasta, and Pizza, each offering a diverse range of recipes to suit different tastes and occasions.",
         stack_frontend:"HTML, CSS, JavaScript, and it's modern framework - React.",
         stack_backend: "Node.js with a framework like Express.js for handling server-side logic and APIs and with the sequel PostgreSQL database.",
+        link_to: "https://github.com/Anna-Bohun-art/cookbook_frontend"
       },
       {
         title: "HackerNews",
         image: project3,
         description: "The HackerNews Random News Generator is a Front End application that harnesses the power of the HackerNews API to provide users with a curated selection of random news articles from the popular tech and startup-focused platform, Hacker News. This application caters to individuals seeking a quick and serendipitous dose of the latest and most interesting tech-related news.",
         stack_frontend:"HTML, CSS, JavaScriptwith  it's framework React.",
+        link_to: "https://hackernews-1234.netlify.app/"
       },
     ],
   },
@@ -188,6 +190,6 @@ export const content = {
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "All © Copy Right Reserved 2023",
   },
 };
