@@ -19,7 +19,25 @@ const Hero = () => {
         </div>
 
         {/* first col */}
+        
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
+        <div class="px-6 max-w-sm rounded overflow-hidden fade-left">
+  {/*<img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">*/}
+  <div class="py-4">
+    {/*<div class="font-bold text-xl mb-2"></div>*/}
+    <p className="text-xl font-bold text-gray-700">Hello!</p>
+    <p class="text-lg font-bold text-gray-700">
+      I'm Anna and I want to become a great full stack developer!
+    </p>
+    <p class="text-xs text-gray-700 text-base pt-3">
+      I completed a bootcamp as a full-stack web developer at WBS Coding School.But to become a great developer, I have to practice a lot. 
+      <p class="text-xs text-gray-700 text-base pt-3">My most important advantage is a strong desire to advance my knowledge. Every day I try to learn something new and implement something new immediately.Small but lasting steps are very effective in the end!</p>
+    </p>
+    <p class="text-xs text-gray-700 text-base pt-3">
+      I'm looking for a good place to train with a great team. And I am just as sure that your team is a very good choice for me!
+    </p>
+  </div>
+</div>
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
