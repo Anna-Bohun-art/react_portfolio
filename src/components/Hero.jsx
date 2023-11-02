@@ -24,7 +24,7 @@ const Hero = () => {
           <br />
           <div className="flex justify-end">
             <button>
-              <a href="https://anna-cv.tiiny.site" className="btn">
+              <a href="https://anna-cv.tiiny.site" target="_blank" className="btn">
                 Check my CV
               </a>
             </button>
