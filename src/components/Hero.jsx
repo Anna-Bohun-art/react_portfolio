@@ -24,7 +24,7 @@ const Hero = () => {
           <br />
           <div className="flex justify-end">
             <button>
-              <a href="file:/assets/images/Hero/cv.pdf" className="btn">
+              <a href="https://anna-cv.tiiny.site" className="btn">
                 Check my CV
               </a>
             </button>
