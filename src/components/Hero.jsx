@@ -44,12 +44,17 @@ const Hero = () => {
           <div className="flex justify-end mt-10">
             <button className="mr-10">
               <a href="https://anna-cv.tiiny.site" target="_blank" className="btn">
-                Check my CV
+              CV
               </a>
               </button>
-              <button>
+              <button className="mr-10">
               <a href="https://github.com/anna-bohun-art" target="_blank" className="btn">
-                Check my Github
+              Github
+              </a>
+            </button>
+            <button className="mr-10">
+              <a href="https://online.fliphtml5.com/kzuzo/plnx/#p=1" target="_blank" className="btn">
+              Portfolio
               </a>
             </button>
           </div>
